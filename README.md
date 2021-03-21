@@ -20,4 +20,4 @@ cmake --build build
 # Copyright & License
 
 Copyright 2020, Matthew Gretton-Dann
-Licese: Apache-2.0.  See [LICENSE](./LICENSE.md)
+Licese: Apache-2.0.  See [LICENSE](./LICENSE)
