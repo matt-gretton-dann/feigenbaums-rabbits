@@ -7,9 +7,21 @@ This is a quick hack so the code is horrible!
 
 # Building
 
-This has been tested on macOS with Homebrew only.
+## Install Dependencies:
 
-Requires CMake and SDL2 to be installed:
+On macOS using Homebrew install CMake and SDL2:
+
+```sh
+brew install cmake sdl2
+```
+
+On Ubuntu install build tools including CMake and SDL2:
+
+```sh
+sudo apt install build-essential cmake libsdl2-dev
+```
+
+## Build
 
 ```sh
 cmake -Bbuild -S.
@@ -20,4 +32,5 @@ cmake --build build
 # Copyright & License
 
 Copyright 2020, Matthew Gretton-Dann
+
 Licese: Apache-2.0.  See [LICENSE](./LICENSE)
