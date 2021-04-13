@@ -19,7 +19,7 @@
 class FixedPoint {
 public:
   constexpr FixedPoint(uint64_t units, uint64_t frac)
-      : num_((units << frac_bits_) | frac_bits_) {
+      : num_((units << frac_bits_) | frac) {
     assert(units < (std::uint64_t(1) << unit_bits_));
     assert(frac < (std::uint64_t(1) << frac_bits_));
   }
